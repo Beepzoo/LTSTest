@@ -186,6 +186,8 @@ GameObject:
   - component: {fileID: 5499337497623840398}
   - component: {fileID: 7211777916089250549}
   - component: {fileID: 6305718213015972742}
+  - component: {fileID: 4535209912623400333}
+  - component: {fileID: 7619418428071719705}
   m_Layer: 0
   m_Name: Lego Piece
   m_TagString: Untagged
@@ -315,6 +317,34 @@ MonoBehaviour:
   _whenCancel:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4535209912623400333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5336065338511800306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bedaac29a943f844a7074b53c8bdf9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _grabbable: {fileID: 7211777916089250549}
+  _rigidbody: {fileID: 5499337497623840398}
+  _scaleMassWithSize: 1
+--- !u!114 &7619418428071719705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5336065338511800306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f30d7da53facc449993325ecb8fe485, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yRespawnValue: 0
 --- !u!1 &8071610396518755810
 GameObject:
   m_ObjectHideFlags: 0
